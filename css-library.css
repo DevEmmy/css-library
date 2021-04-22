@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0; 
+    color: var(--color);
+}
+
+header{
+    padding: 20px;
+    width: 100%;
+    border-bottom: 1px solid #cccccc;
+    color: var(--color);
+    background: var(--background);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container{
+    width:var(--width) ;
+    display: flex;
+    flex-direction:var(--flex-direction);
+    justify-content: space-between;
+    align-items: center;
+    color: var(--color);
+    margin: var(--y-margin) auto;
+    background:var(--background);
+    border-radius: var(--radius);
+     padding: var(--y-padding) var(--x-padding);
+}
+
+.card{
+    width: var(--width);
+    height: var(--height);
+    box-shadow: 0 5px 12px var(--s-color);
+    padding: var(--padding);
+    margin: var(--y-margin) auto;
+    color: var(--color);
+}
+
+button{
+    color: var(--color);
+    background:var(--background);
+    border: none;
+    border-radius: 10px;
+    padding: var(--y-padding) var(--x-padding);
+    font-size: 18px;
+    font-weight: 500;
+    margin: var(--y-margin) var(--x-margin);
+    transition: .3s;
+}
+
+button:hover{
+    box-shadow: 0 8px 10px var(--s-color);
+}
+
+footer{
+    width:var(--width) ;
+    display: flex;
+    flex-direction:var(--flex-direction);
+    justify-content: space-between;
+    align-items: center;
+    color: var(--color);
+    margin: var(--y-margin) auto;
+    background:var(--background);
+    border-radius: var(--radius);
+     padding: var(--y-padding) var(--x-padding);
+     font-size:var(--font-size);
+}
+
+a{
+    text-decoration: dashed;
+    color: var(--color);
+    width:var(--width) ;
+    display: flex;
+    flex-direction:var(--flex-direction);
+    justify-content: space-between;
+    align-items: center;
+    color: var(--color);
+    margin: var(--y-margin) auto;
+    background:var(--background);
+    border-radius: var(--radius);
+     padding: var(--y-padding) var(--x-padding);
+     font-size:var(--font-size);
+}
+
+ul{
+    width:var(--width) ;
+    display: flex;
+    flex-direction:var(--flex-direction);
+    justify-content: space-between;
+    align-items: center;
+    color: var(--color);
+    margin: var(--y-margin) auto;
+    background:var(--background);
+    border-radius: var(--radius);
+     padding: var(--y-padding) var(--x-padding);
+     font-size:var(--font-size);
+     list-style-type: var(--l-type);
+}
