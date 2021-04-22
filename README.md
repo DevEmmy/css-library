@@ -32,7 +32,9 @@
     <li>l-type: To set the list type of an unordered list</li>
 </ul>
 
-<h3>To use the classes and other attributes, use them as styles during inline styling, an exmaple will be shown below </h3>
+<h3>To use the classes and other attributes, use them as styles during inline styling, an example will be shown below </h3>
 < button style="--color:#fff; --y-margin:20px; --x-margin:20px; --s-color:rgba(0,0,0,0.3);  --background:rgb(200,100,100); --radius:10px; --y-padding:16px; --x-padding:100px; ">Hello world< / button> (Remove the extra space between the element tag)
+
+
 
 <p>Just clone it to your directory and start using</p>
